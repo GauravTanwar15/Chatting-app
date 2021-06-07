@@ -18,18 +18,10 @@ const Login = () => {
 
                     <GoogleOutlined /> Sign In with Google
                 </div>
-
-                <br /> <br />
-                <div 
-                    className="login-button linkedin"
-                >
-
-                    <LinkedinOutlined /> Sign In with LinkedIn
-                </div>
-
                 <br /> <br />
                 <div 
                     className="login-button github"
+                    onClick={() => auth.signInWithRedirect(new firebase.auth.GithubAuthProvider())}
                 >
         
                     <GithubOutlined /> Sign In with Github
@@ -43,13 +35,6 @@ const Login = () => {
                     <FacebookOutlined /> Sign In with Facebook
                 </div>
                 <br /> <br />
-               
-                <div 
-                    className="login-button instagram"
-                >
-        
-                    <InstagramOutlined /> Sign In with Instagram
-                </div>
             </div>
         </div>
     );
