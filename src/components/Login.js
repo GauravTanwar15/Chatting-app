@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleOutlined, FacebookOutlined, GithubOutlined, InstagramOutlined, LinkedinOutlined } from '@ant-design/icons' ;
+import { GoogleOutlined, FacebookOutlined, GithubOutlined } from '@ant-design/icons' ;
 import "firebase/app";
 
  import { auth } from '../firebase';
@@ -10,7 +10,7 @@ const Login = () => {
         <div id="login-page">
             <div id="login-card">
                 <h1>Hello world</h1>
-                <h3>Here only Developers talk!</h3>
+                <h3><i>here only Developers talk!</i></h3>
                 <br></br>
 
                 <div  
