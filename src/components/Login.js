@@ -9,7 +9,9 @@ const Login = () => {
     return (
         <div id="login-page">
             <div id="login-card">
-                <h2>Welcome to Dev Talk!</h2>
+                <h1>Hello world</h1>
+                <h3>Here only Developers talk!</h3>
+                <br></br>
 
                 <div  
                     className="login-button google"
@@ -27,7 +29,6 @@ const Login = () => {
                     <GithubOutlined /> Sign In with Github
                 </div>
                 <br />
-                <h3>Or</h3>
                 <h4>Social Media</h4>
                 <div 
                     className="login-button facebook"

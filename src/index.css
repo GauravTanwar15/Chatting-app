@@ -44,16 +44,28 @@
   background: transparent; /* Optional: just make scrollbar invisible */
 }
 
-/* Login Page */
-
-#login-page {
-  background-image: linear-gradient(#40a9ff, #096dd9);
+body {
+  background-image: url(b.jpg);
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
 }
+
+/* Login Page */
+
+#login-page {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
 
 #login-card {
   position: relative;
