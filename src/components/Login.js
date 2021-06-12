@@ -9,8 +9,8 @@ const Login = () => {
     return (
         <div id="login-page">
             <div id="login-card">
-                <h1>Hello world</h1>
-                <h3><i>here only Developers talk!</i></h3>
+                <h1>Codergram</h1>
+                <h3><i>Platform for coders interaction!</i></h3>
                 <br></br>
 
                 <div  

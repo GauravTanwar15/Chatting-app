@@ -67,7 +67,7 @@ const Chats = () => {
         <div className="chats-Page">
             <div className="nav-bar">
                 <div className="logo-tab">
-                    Talk!
+                    Codergram
                 </div>
                 <div onClick={handleLogout} className="logout-tab">
                 Logout
