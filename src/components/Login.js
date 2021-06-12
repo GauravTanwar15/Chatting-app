@@ -28,8 +28,10 @@ const Login = () => {
         
                     <GithubOutlined /> Sign In with Github
                 </div>
+                
                 <br />
-                <h4>Social Media</h4>
+                <h4><i>Social media</i></h4>
+                
                 <div 
                     className="login-button facebook"
                     onClick={() => auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}
@@ -37,7 +39,6 @@ const Login = () => {
                 
                     <FacebookOutlined /> Sign In with Facebook
                 </div>
-                <br /> <br />
             </div>
         </div>
     );

@@ -44,21 +44,14 @@
   background: transparent; /* Optional: just make scrollbar invisible */
 }
 
-body {
-  background-image: url(b.jpg);
-  background-position: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-}
-
 /* Login Page */
 
 #login-page {
+  /*background-image: linear-gradient(#40a9ff, #096dd9);*/
+  background-image: url(b.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -66,17 +59,16 @@ body {
   right: 0px;
 }
 
-
 #login-card {
   position: relative;
-  top: calc(50vh - 144px);
-  left: calc(50vw - 210px);
+  top: calc(50vh - 200px);
+  left: calc(50vw - 200px);
   padding-top: 36px;
   padding-bottom: 66px;
   width: 420px;
   text-align: center;
   background-color: white;
-  border-radius: 22px;
+  border-radius: 40px;
 }
 
 .login-button {
@@ -91,23 +83,14 @@ body {
   background-color: #3b5998;
 }
 
-.google {
-  background-color: #4285F4;
-  color: white;
-}
-
-.linkedin {
-  background-color: #0077b5;
-  color: white;
-}
-
 .github {
   background-color: grey;
   color: white;
 }
 
-.instagram {
-  background-color: rgb(138, 58, 185);
+.google {
+  background-color: #4285f4;
+  color: white;
 }
 
 #loading-container {
@@ -125,3 +108,5 @@ body {
   left: calc(50vw - 33px);
   top: calc(50vh - 22px);
 }
+
+
