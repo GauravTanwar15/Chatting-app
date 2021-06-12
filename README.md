@@ -1,3 +1,3 @@
-# Unichat Application
+# Codergram Application
 
 https://codergram.netlify.app/
