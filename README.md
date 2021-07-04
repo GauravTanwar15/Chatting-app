@@ -1,4 +1,4 @@
-# Codergram Application
+# Codergram React App
 
 https://codergram.netlify.app/
 
